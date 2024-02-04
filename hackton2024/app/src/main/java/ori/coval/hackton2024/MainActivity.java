@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     ImageView imageView;
     TextView textView;
-    private Button next;
+    Button signUp, settings, adminPage, relaxExercise;
     int count = 0;
 
     @SuppressLint("ClickableViewAccessibility")
@@ -27,8 +27,39 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
-        next = findViewById(R.id.next);
-        next.setOnClickListener(new View.OnClickListener() {
+        signUp = findViewById(R.id.signUp);
+        settings = findViewById(R.id.settings);
+        adminPage = findViewById(R.id.adminPage);
+        relaxExercise = findViewById(R.id.relaxExercise);
+
+        signUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Start the File Sharing Activity
+                Intent intent = new Intent(MainActivity.this, SignUp.class);
+                startActivity(intent);
+            }
+        });
+
+        relaxExercise.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Start the File Sharing Activity
+                Intent intent = new Intent(MainActivity.this, SignUp.class);
+                startActivity(intent);
+            }
+        });
+
+        settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Start the File Sharing Activity
+                Intent intent = new Intent(MainActivity.this, Settings.class);
+                startActivity(intent);
+            }
+        });
+
+        adminPage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Start the File Sharing Activity
