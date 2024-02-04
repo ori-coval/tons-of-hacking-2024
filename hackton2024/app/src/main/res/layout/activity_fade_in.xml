@@ -1,0 +1,22 @@
+<!-- res/layout/activity_start_screen.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fadeIn"
+    android:background="@drawable/good_morning_img"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/fadingText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/gotham"
+        android:text="Mind Ease"
+        android:textSize="150dp"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+
+    <!-- Add any other elements as needed -->
+
+</RelativeLayout>

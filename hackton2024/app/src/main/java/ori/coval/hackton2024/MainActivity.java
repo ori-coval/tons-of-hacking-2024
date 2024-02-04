@@ -72,16 +72,18 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.textView);
         imageView.setOnTouchListener(new OnSwipeTouchListener(getApplicationContext()) {
             public void onSwipeTop() {
+                Intent intent = new Intent(MainActivity.this, alert.class);
+                startActivity(intent);
             }
 
             public void onSwipeRight() {
                 if (count == 0) {
                     imageView.setImageResource(R.drawable.good_night_img);
-                    textView.setText("Night");
+                    textView.setText("ערב");
                     count = 1;
                 } else {
                     imageView.setImageResource(R.drawable.good_morning_img);
-                    textView.setText("Morning");
+                    textView.setText("בוקר");
                     count = 0;
                 }
             }
@@ -89,11 +91,11 @@ public class MainActivity extends AppCompatActivity {
             public void onSwipeLeft() {
                 if (count == 0) {
                     imageView.setImageResource(R.drawable.good_night_img);
-                    textView.setText("Night");
+                    textView.setText("ערב");
                     count = 1;
                 } else {
                     imageView.setImageResource(R.drawable.good_morning_img);
-                    textView.setText("Morning");
+                    textView.setText("בוקר");
                     count = 0;
                 }
             }
