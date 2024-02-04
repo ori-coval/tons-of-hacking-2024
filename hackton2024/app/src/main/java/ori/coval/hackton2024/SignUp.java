@@ -82,15 +82,11 @@ public class SignUp extends AppCompatActivity {
         // Replace this with your actual data retrieval logic.
 
         ArrayList<String> test = new ArrayList<>();
-        test.add("Test");
-        test.add("test2");
-        test.add("test2");
-        test.add("test2");
-        test.add("test2");
-        test.add("test2");
-        test.add("test2");
-        test.add("test2");
-        test.add("test2");
+        test.add("הכנס את גילך");
+        test.add("האם אתה מאובחן כחווה התקפים מכל סוג שהם");
+        test.add("באיזה תדירות אתה חווה את ההתקפים");
+        test.add("(לעיתים קרובות (כל יום) , פעם בכמה ימים , לעיתים רחוקות)");
+        test.add("מה היא עוצמת ההתקפים (בדרך כלל)");
         return test;
     }
 }
