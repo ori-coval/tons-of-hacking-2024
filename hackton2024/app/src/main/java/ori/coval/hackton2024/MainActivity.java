@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Start the File Sharing Activity
-                Intent intent = new Intent(MainActivity.this, SignUp.class);
+                Intent intent = new Intent(MainActivity.this, stressReduce.class);
                 startActivity(intent);
             }
         });
@@ -63,10 +63,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Start the File Sharing Activity
-                Intent intent = new Intent(MainActivity.this, SignUp.class);
+                Intent intent = new Intent(MainActivity.this, adminPage.class);
                 startActivity(intent);
             }
         });
+
         imageView = findViewById(R.id.imageView);
         textView = findViewById(R.id.textView);
         imageView.setOnTouchListener(new OnSwipeTouchListener(getApplicationContext()) {
