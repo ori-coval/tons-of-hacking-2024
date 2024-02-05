@@ -4,27 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fourseveneight">
-
+    tools:context=".fourseveneight"
+    android:background="@drawable/good_morning_img">
 
         <Space
+            android:id="@+id/space"
             android:layout_width="match_parent"
-            android:layout_height="300dp"/>
+            android:layout_height="200dp" />
 
         <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:paddingTop="60dp"
-        android:text="setting"
-        android:textSize="40dp">    </FrameLayout>
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingTop="60dp"
+            android:text="setting"
+            android:textSize="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/space"
+            app:layout_constraintVertical_bias="0.584">
 
 
-        <VideoView
-            android:id="@+id/video_view"
-            android:layout_width="480dp"
-            android:layout_height="380dp"
-            android:layout_gravity="center" />
+                <VideoView
+                    android:id="@+id/video_view"
+                    android:layout_width="480dp"
+                    android:layout_height="381dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="8dp"
+
+                    />
+        </FrameLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

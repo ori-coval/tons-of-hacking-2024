@@ -24,5 +24,13 @@ public class stressReduce extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.relaxVid).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(stressReduce.this,RelaxVid.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

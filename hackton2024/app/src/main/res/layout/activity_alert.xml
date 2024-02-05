@@ -34,11 +34,20 @@
         android:fontFamily="@font/gotham"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="30dp"/>
-    
+
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:text="תרגילי נשימה"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_marginTop="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
         android:text="לחץ לקו סיוע חם"/>
 
 </LinearLayout>

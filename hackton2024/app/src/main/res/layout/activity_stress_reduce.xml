@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".stressReduce">
+    tools:context=".stressReduce"
+    android:background="@drawable/good_morning_img">
 
     <TextView
         android:id="@+id/textView"
@@ -23,6 +24,14 @@
         android:layout_height="70dp"
         android:layout_gravity="center"
         android:text="שיטת 4-7-8"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/relaxVid"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="מוזיקה מרגיעה"
         android:textSize="20dp" />
 
     <Space
