@@ -23,11 +23,12 @@
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
-        android:text="שיטת 4-7-8"
+        android:text="שיטת נשימה 4-7-8"
         android:textSize="20dp" />
 
     <Button
         android:id="@+id/relaxVid"
+        android:layout_marginTop="30dp"
         android:layout_width="200dp"
         android:layout_height="70dp"
         android:layout_gravity="center"

@@ -10,7 +10,7 @@ import android.widget.Button;
 public class alert extends AppCompatActivity {
 
     Intent intent;
-    Button btnBreath;
+    Button btnBreath, btnMusic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,17 @@ public class alert extends AppCompatActivity {
         btnBreath.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                intent = new Intent(alert.this, stressReduce.class);
+                intent = new Intent(alert.this, fourseveneight.class);
+                startActivity(intent);
+            }
+        });
+
+
+        btnMusic = findViewById(R.id.chillMusic);
+        btnMusic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(alert.this, RelaxVid.class);
                 startActivity(intent);
             }
         });

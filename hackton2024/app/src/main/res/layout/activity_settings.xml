@@ -75,13 +75,14 @@
                 android:layout_marginLeft="125dp"
                 android:text="התראות לאיש הקשר"
                 android:scaleX="1.5"
-                android:scaleY="1.5"/>
+                android:scaleY="1.5"
+                android:checked="true"/>
 
 
         </LinearLayout>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/changeButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

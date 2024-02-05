@@ -44,6 +44,14 @@
         android:text="תרגילי נשימה"/>
 
     <Button
+        android:id="@+id/chillMusic"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:text="מוזיקה מרגיעה"/>
+    <Button
         android:layout_width="300dp"
         android:layout_marginTop="350dp"
         android:layout_height="wrap_content"

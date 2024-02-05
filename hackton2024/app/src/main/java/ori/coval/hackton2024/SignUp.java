@@ -85,7 +85,6 @@ public class SignUp extends AppCompatActivity {
         test.add("הכנס את גילך");
         test.add("האם אתה מאובחן כחווה התקפים מכל סוג שהם");
         test.add("באיזה תדירות אתה חווה את ההתקפים");
-        test.add("(לעיתים קרובות (כל יום) , פעם בכמה ימים , לעיתים רחוקות)");
         test.add("מה היא עוצמת ההתקפים (בדרך כלל)");
         return test;
     }
