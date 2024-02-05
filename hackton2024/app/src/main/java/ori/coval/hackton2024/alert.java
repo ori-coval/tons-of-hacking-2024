@@ -45,7 +45,7 @@ public class alert extends AppCompatActivity {
         btnCall.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 // Replace "123456789" with the desired phone number
-                String phoneNumber = "tel:" + "0556646552";
+                String phoneNumber = "tel:" + "0587528099";
 
                 // Create an implicit intent to open the dialer with the specified phone number
                 Intent callIntent = new Intent(Intent.ACTION_CALL, Uri.parse(phoneNumber));

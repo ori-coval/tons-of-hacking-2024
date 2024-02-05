@@ -69,4 +69,24 @@
         android:layout_height="match_parent"
         android:layout_below="@id/textTitle" />
 
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@id/recycler_view">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="150dp"
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="Save"/>
+
+    </LinearLayout>
+
 </RelativeLayout>
